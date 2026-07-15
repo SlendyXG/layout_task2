@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="blog__slide__content">
                                     <h3><a href="/post/{{ post.slug }}/">{{ post.title }}</a></h3>
-                                    <p>{{ post.published_at|timesince }} ago</p>
+                                    <p>{{ post.published_at|date:"d.m.Y" }}</p>
                                 </div>
                             </div>
                         </div>
