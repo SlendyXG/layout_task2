@@ -115,7 +115,7 @@
                                 </div>
                                 <div class="details mt-20">
                                     <h3><a href="/post/{{ post.slug }}/">{{ post.title }}</a></h3>
-                                    <p>{{ post.text }}</p>
+                                    <p>{{ post.text|truncatewords:200 }}</p>
                                     <a class="button" href="/post/{{ post.slug }}/">Read More <i class="ti-arrow-right"></i></a>
                                 </div>
                             </div>
